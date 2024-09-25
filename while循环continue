@@ -1,0 +1,13 @@
+#define<stdio.h>
+int main()
+{
+   int i=0;
+  while(i<=10)
+ {
+   if(i==6)
+     continue;                      //continue用来跳过本次循环continue后面的代码，直接去判断是否进行下一次循环
+     printf("%d\n",i)
+     i++;
+ }
+  return0;
+}
